@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+
+		<link rel="stylesheet" href="styles.css">
+
+		<title>Boolean Button Test</title>
+
+
+	</head>
+	<body>
+		<div class="boolean-button">
+			<button class="boolean boolean-false" id="test-false" onclick="testFalse();">False</button>
+			<button class="boolean boolean-toggle" id="test-toggle" onclick="testToggle();"><img id="test-image" src="left.svg" /></button> 
+			<button class="boolean boolean-true" id="test-true" onclick="testTrue();">True</button>
+		</div>
+
+		<script src="lib.js"></script>
+		<script src="booleanButton.js"></script>
+		<script src="test.js"></script>
+	</body>
+</html>

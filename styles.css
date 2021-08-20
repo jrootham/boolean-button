@@ -1,0 +1,37 @@
+.boolean-button
+{
+	display: inline-flex;
+	flex-direction: row;
+	background-color: lightsteelblue;
+}
+
+.boolean
+{
+	border: none;
+	padding: 0;
+	background-color: inherit;
+	font-size: large;
+}
+
+.boolean-false
+{
+	width: 3em;
+	background-color: red;
+}
+
+.boolean-true
+{
+	width: 3em;
+}
+
+.boolean-toggle
+{
+	align-content: center;
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	padding-left: 0;
+	background-color: inherit;
+	width: 2.5em;
+}
+
